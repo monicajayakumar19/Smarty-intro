@@ -32,7 +32,7 @@
     <label for=""> STATUS </label>
     <input type="text" name="status" class="form-control">
     </div>
-    <button class="btn btn-primary"> INSERT </button>
+    <button class="btn btn-primary"> REGISTER </button>
 
     </div>
     </div>
