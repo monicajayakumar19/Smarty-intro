@@ -7,16 +7,16 @@ $password = $_POST['pass'];
 $city = $_POST['city'];
 $status = $_POST['status'];
 
-// $sql ="INSERT INTO `users`( `emp_name`, `password`, `city`, `status`) VALUES ('$emp_name','$password','$city','$status')";
-// //echo $sql; exit();
- //$res = mysqli_query($con,$sql);
+$sql ="INSERT INTO `users`( `emp_name`, `password`, `city`, `status`) VALUES ('$emp_name','$password','$city','$status')";
+//echo $sql; exit();
+ $res = mysqli_query($con,$sql);
 
-// if($res == 1){
-//     echo "Inserted successfully";
-// }
-// else{
-//     echo "Insertion Failed, Try Again.......";
-// }
+if($res == 1){
+    echo "Inserted successfully";
+}
+else{
+    echo "Insertion Failed, Try Again.......";
+}
 
 
 
@@ -31,16 +31,16 @@ $status = $_POST['status'];
 //         echo "Deletion operation Failed, Try Again.......";
 //     }
     
-    $sql2 = "UPDATE `users` SET `emp_name`= 'monica' WHERE `emp_id` = 7";
-    $res2 = mysqli_query($con,$sql2);
+    // $sql2 = "UPDATE `users` SET `emp_name`= 'monica' WHERE `emp_id` = 7";
+    // $res2 = mysqli_query($con,$sql2);
     
-    if($res2 == 1)
-    {
-            echo "Updated  successfully";
-        }
-        else{
-            echo "Updation Failed, Try Again.......";
-        }
+    // if($res2 == 1)
+    // {
+    //         echo "Updated  successfully";
+    //     }
+    //     else{
+    //         echo "Updation Failed, Try Again.......";
+    //     }
         
     
 
