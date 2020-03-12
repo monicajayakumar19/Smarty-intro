@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-03-12 07:58:40
+/* Smarty version 3.1.34-dev-7, created on 2020-03-12 08:47:27
   from 'C:\xampp\htdocs\projects\Smarty-intro\templates\form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e69dda0749721_60934722',
+  'unifunc' => 'content_5e69e90ff0b518_47211558',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7e4012fc810e8931627a5968825aad2e3df219ff' => 
     array (
       0 => 'C:\\xampp\\htdocs\\projects\\Smarty-intro\\templates\\form.tpl',
-      1 => 1583996228,
+      1 => 1583996539,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e69dda0749721_60934722 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e69e90ff0b518_47211558 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ob_start();
@@ -31,16 +31,16 @@ echo $_prefixVariable1;?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6354967855e69dda0748a10_57412620', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4748611845e69e90ff079e2_84142661', 'body');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "layout.tpl");
 }
 /* {block 'body'} */
-class Block_6354967855e69dda0748a10_57412620 extends Smarty_Internal_Block
+class Block_4748611845e69e90ff079e2_84142661 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'body' => 
   array (
-    0 => 'Block_6354967855e69dda0748a10_57412620',
+    0 => 'Block_4748611845e69e90ff079e2_84142661',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -76,7 +76,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
     <input type="text" name="status" class="form-control">
     </div>
     <button class="btn btn-primary"> INSERT </button>
-    <button class="btn btn-primary"> DELETE </button>
+
     </div>
     </div>
     </div>
