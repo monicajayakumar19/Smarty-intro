@@ -46,7 +46,7 @@ while($r = mysqli_fetch_object($res)){
     <td><?php echo $v['name'] ?></td>
     <td><?php echo $v['pass'] ?></td>
     <td><?php echo $v['city'] ?></td>
-    <td><?php echo $v['status'] ?></td>
+    <td><?php echo $v['status']?></td>
  
 </tr>
 <?php } ?>
