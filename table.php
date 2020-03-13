@@ -1,6 +1,7 @@
 <?php
  require_once("config/database.php");
 $sql = "select * from users";
+
 $res = mysqli_query($con,$sql);
 
 while($r = mysqli_fetch_object($res)){
@@ -11,6 +12,7 @@ while($r = mysqli_fetch_object($res)){
         'city' => $r->city,
         'status' => $r->status
 );
+
 }
  //echo "<pre>";
  //print_r ($rs);
